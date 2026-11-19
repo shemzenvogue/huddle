@@ -1,0 +1,26 @@
+#div{ 
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(238, 243, 243);
+box-decoration-break: rgb(41, 39, 39);
+border-style: dotted;
+text-align: center;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+div a{
+display: inline;
+height: 30px;
+width: 50px;
+padding-left: 50px;
+font-size: 1.5rem ;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#picture{
+    width:200px;
+    border-radius:50%;
+}
+.username{
+font-style: inherit;
+}

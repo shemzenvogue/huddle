@@ -1,0 +1,37 @@
+body{
+    background-color:#674baf ;
+}
+.logo{
+width: 15%;
+}
+.flexcontainer{
+    margin-top: 30px;
+display: flex;
+}
+
+.wrapper1{
+background-image: url("bg-desktop.svg");
+height: 100%;}
+.about{
+    margin-left: 40px;
+}
+
+.title2{
+padding-bottom: 20px;
+font-weight: 100;
+color: white;
+}
+.writeup{
+color: white;
+width: 50%;
+font-size:medium;
+padding-bottom: 10px;
+}
+button{
+cursor:pointer;
+padding: 15px 32px;
+border-style: dotted;
+border-radius: 50px;
+background-color: whitesmoke;
+}
+

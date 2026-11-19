@@ -1,0 +1,9 @@
+.index {
+    background-color: rgb(223, 221, 224);
+}
+ul{
+    height: 80px;
+    background-image: url("bird\ lovers.jpg");
+    background-repeat: repeat-y;
+}
+

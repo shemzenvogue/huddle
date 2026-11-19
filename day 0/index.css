@@ -1,0 +1,21 @@
+.flex-container{
+background-color: rgb(112, 134, 185);
+height: 200px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 500px;
+}
+.box{
+background-color: rgb(239, 232, 232);
+height: 100px;
+width:100px
+}
+
+.box1{
+ order: 3;}
+.box2{
+ order: 2;}
+.box3{
+order: 1;    
+}

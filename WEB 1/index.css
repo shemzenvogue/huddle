@@ -1,0 +1,272 @@
+body {
+    background-color: #f9eeee;
+    font-family: 'Inter', sans-serif;
+}
+
+/* mobile screens first */
+#main-wrapper {
+    width: 100%;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+/* laptop/ipad screens size */
+@media (min-width: 768px) {
+    #main-wrapper {
+        max-width:80%;
+    }
+}
+
+#nav {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebdede;
+}
+#nav-parent {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+#logo {
+    margin-left: -20px;
+}
+
+#nav-child {
+    margin-top: 20px;
+    margin-left: 2px;
+}
+#nav-child a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-child a:hover {
+    color: blue;
+}
+/* laptop/ipad screens size */
+@media (min-width: 768px) {
+    #nav-child {
+    margin-top: 0px;
+    gap: 0px;
+}
+}
+
+#ctabtn {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 120px;
+}
+
+#ctabtn:hover {
+    cursor: pointer;
+}
+
+/* HERO Section */
+
+#hero-section {
+    height: 65vh;
+    margin-top: 60px;
+    padding: 60px 25px;
+    border: 1px solid #ebdede;
+}
+#herointro {
+    text-transform: uppercase;
+    color: blue;
+    font-weight: lighter;
+    font-family: serif;
+}
+
+#heroHeading {
+    font-size: 2.4rem;
+}
+
+/* laptop/ipad screens size */
+@media (min-width: 768px) {
+    #heroHeading {
+        width: 70%;
+        font-size: 3rem;
+    }
+}
+#heroDescription {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 20px;
+}
+/* laptop/ipad screens size */
+@media (min-width: 768px) {
+    #heroDescription {
+        width: 45%;
+        font-size: 20px;
+        font-weight: 100;
+        color: #181515;
+    }
+}
+
+#btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#btn1{
+    width: 50%;
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 40px;
+}
+#btn2 {
+    width: 50%;
+}
+
+#btns button:hover {
+    cursor: pointer;
+}
+/* laptop/ipad: side by side */
+@media (min-width: 768px) {
+    #btns {
+        flex-direction: row;
+        width: 40%;
+    }
+}
+
+#bg-hero {
+  position: relative;      /* the anchor for the absolute children */
+  height: 700px;
+  overflow: hidden;        /* clips the mockup at the bottom edge, like your reference */
+  background-image: url('hero-pixel.webp');
+  background-size: cover;
+  font-size: 12px;
+}
+
+#polaroid {
+  position: absolute;
+  left: 45px;
+  bottom: 60px;
+  z-index: 2;              /* keeps it above the mockup */
+  margin: 0;               /* kills the default figure margin */
+  width: 200px;
+  padding: 10px 10px 16px;
+  background: white;
+  border-radius: 2px;
+  transform: rotate(-3deg);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+#polaroid img {
+  display: block;
+  width: 100%;
+}
+
+#polaroid figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+#mockup {
+  position: absolute;
+  top: 29.8%;  
+  right: 4%;
+  width: 65%;
+}
+
+#mockup img {
+  display: block;
+  width: 100%;
+}
+#showcase-main {
+    background-color: white;
+    padding:30px 10px 30px 10px;
+    margin-top: 30px;
+    border-top: 1px solid black;
+    
+}
+
+/* mobile: stacked */
+#showcase-websites {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+/* laptop/ipad: all 4 side by side, same width */
+@media (min-width: 768px) {
+    #showcase-websites {
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: row;
+        
+    }
+    .showcase-item {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+}
+.showcase-item{
+border: 1px solid bisque;
+
+}
+
+
+.showcase-item figure {
+    margin: 0;
+}
+
+.showcase-item img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+}
+.caption-bottom{
+font-size: 12px;
+color:black;
+}
+.caption-top{
+font-weight:bold;
+}
+#showcase-websites figCaption{
+    padding-left: 30px;
+}
+
+ .flex-container{
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(228, 235, 233);
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+/* laptop/ipad: all 4 side by side, same width */
+@media (min-width: 768px) { 
+ .flex-container{
+     flex-direction: row;
+}
+
+}
+
+
+.amount{
+font-weight: 500px;
+font-size: x-large;
+}
+.amount2{
+    font-weight: 500px;
+    font-size: x-large;
+}
+.review{
+    font-size: x-large;
+    font-weight: 500px;
+}
+.style-content{
+text-decoration-inset: initial;
+}
